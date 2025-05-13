@@ -2,7 +2,12 @@ body{
     font-family: 'Montserrat ' , sans-serif;
     text-align: center;
 }   
-button{
+
+button:hover{
+cursor: pointer;
+}
+
+button {
     padding: 5px;
     margin:5px 3px 12px;
     outline:none;
@@ -12,7 +17,3 @@ button{
     background-color: #1162ac;
     color:white;
 }   
-
-button:hover{
-cursor: pointer;
-}
